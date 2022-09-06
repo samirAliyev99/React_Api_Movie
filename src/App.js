@@ -21,14 +21,14 @@ export default class   extends Component {
             <div className="col-4 col-1">Title</div>
             <div className="col col-2">Movie Year</div>
             <div className="col col-3">Rank of Movie</div>
-            <div className="col col-4">Payment Status</div>
+            <div className="col col-4">Genre of Movie </div>
           </li>
           
           <li className="table-row">
-            <div className="col-4 col-1" data-label="Job Id">{this.props.title}</div>
-            <div className="col col-2" data-label="Customer Name">{this.props.year}</div>
-            <div className="col col-3" data-label="Amount">{this.props.rating}</div>
-            <div className="col col-4" data-label="Payment Status">{this.props.genre}</div>
+            <div className="col-4 col-1" data-label="Title">{this.props.title}</div>
+            <div className="col col-2" data-label="Movie Year">{this.props.year}</div>
+            <div className="col col-3" data-label="Rank of Movie">{this.props.rating}</div>
+            <div className="col col-4" data-label="Genre of Movie">{this.props.genre}</div>
           </li>
        
         </ul>
